@@ -33,4 +33,5 @@ try:
     print(browser.switch_to.alert.text.split(': ')[-1])
 
 finally:
+    #выход
     browser.quit()
